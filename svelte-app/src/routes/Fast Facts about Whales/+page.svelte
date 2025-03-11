@@ -22,10 +22,12 @@ img {
 h1 {
     font-size: 30px;
     font-family:cursive;
+    color: grey;
 }
 
     h2 {
         font-size: 14px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: rgb(159, 159, 255);
         font: bold;
         margin-left: auto;

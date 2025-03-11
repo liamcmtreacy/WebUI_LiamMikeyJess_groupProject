@@ -4,14 +4,17 @@ export let title = "Card Title";
 
 <div class = "Card">
 <img src = "/teamMemberMikey.jpg" alt = "Hello, I'm Mikey Holmes, this is my portrait">
+<p>Hello, my name is Mikey Holmes!</p>
 </div>
 
 <div class = "Card02">
 <img src = "/teamMemberJessica.jpg" alt = "Hello, I'm Jessica Curran, this is my portrait">
+<p>Hello, my name is Jessica Curran!</p>
 </div>
 
 <div class = "Card03">
 <img src = "/teamMemberLiam.jpg" alt = "Hello, I'm Liam Treacy, this is my portrait">
+<p>Hello, my name is Liam Treacy!</p>
 </div>
 
 <div class = "content">
@@ -104,6 +107,12 @@ export let title = "Card Title";
     background: #007bff;
     margin: 0 auto 10px auto;
     transition: width 0.3s ease-in-out;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 </style>
