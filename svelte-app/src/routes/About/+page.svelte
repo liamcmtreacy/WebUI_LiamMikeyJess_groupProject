@@ -20,10 +20,10 @@
     <style>
         h1 {color: #5aa1ed; 
         font-size: 25px;
-    font-family: cursive;}
+        font-family: cursive;}
 
         p { font-size: 18px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+        font-family: cursive; }
 
     </style>
 

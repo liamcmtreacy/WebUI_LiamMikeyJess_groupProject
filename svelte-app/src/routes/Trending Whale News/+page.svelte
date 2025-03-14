@@ -9,6 +9,11 @@
     <p>OVER 150 WHALES STRANDED ON THE BEACH, READ NOW!</p>
 </div>
 
+<div class = "deadHumpbackWhale">
+    <img src = "/deadHumpbackWhale.png" alt = "DeadHumpbackWhaleonBeach">
+    <p>HUMPBACK WHALE, DEAD ON DELAWARE BEACH, AFTER WASHING ON SHORE, READ NOW!</p>
+</div>
+
 <main> 
     <slot />
 </main>
@@ -44,6 +49,28 @@
     transform: translateY(-5px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
+
+.deadHumpbackWhale {
+    background: white;
+    border-radius: 10px;
+    border: 3px solid #007bff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 20%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.deadHumpbackWhale > img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.deadHumpbackWhale:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
 </style>
 
-
+<!--TRENDING PAGE WITH CARDS-->

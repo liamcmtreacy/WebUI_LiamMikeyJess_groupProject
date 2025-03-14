@@ -14,7 +14,7 @@ export let title = "Card Title";
 
 <div class = "Card03">
 <img src = "/teamMemberLiam.jpg" alt = "Hello, I'm Liam Treacy, this is my portrait">
-<p>Hello, my name is Liam Treacy!</p>
+<p>Hello, my name is Liam Treacy, you can contact me at C00298242@setu.ie</p>
 </div>
 
 <div class = "content">
@@ -29,7 +29,7 @@ export let title = "Card Title";
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     text-align: center;
-    width: 20%;
+    width: 50%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
@@ -46,7 +46,7 @@ export let title = "Card Title";
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     text-align: center;
-    width: 20%;
+    width: 50%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
@@ -63,7 +63,7 @@ export let title = "Card Title";
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     text-align: center;
-    width: 20%;
+    width: 50%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
@@ -72,8 +72,6 @@ export let title = "Card Title";
     height: auto;
     border-radius: 8px 8px 0 0;
 }
-
-
     
 .content {
     padding: 1.5rem;
@@ -114,5 +112,30 @@ p {
     font-size: 13px;
     font-weight: bold;
 }
+
+@keyframes fadeInSlide {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.Card {
+    animation: fadeInSlide 0.6s ease ease-out;
+}
+
+.Card02 {
+    animation: fadeInSlide 0.6s ease ease-out;
+}
+
+.Card03 {
+    animation: fadeInSlide 0.6s ease ease-out;
+}
+
 
 </style>

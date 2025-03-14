@@ -9,11 +9,11 @@
 
 <style>
     h1 {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     }
 
     p {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     }
 </style>
 
