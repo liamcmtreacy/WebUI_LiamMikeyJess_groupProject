@@ -5,6 +5,11 @@
     <img src = "/mobyDickWHALE.jpg" alt = "Moby Dick book">
 </a>
 
+<h2> Learn about the heaviest recorded Whale Ever!</h2>
+<a href = "340_Ton_Whale">
+    <img src = "/skyNewsWhale.jpg" alt = "An ancient depiction of what is believed to be the largest whale of all time, who is grey in color">
+</a>
+
 
 
 <style>

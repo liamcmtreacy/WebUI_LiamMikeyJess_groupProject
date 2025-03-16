@@ -6,6 +6,7 @@
 <h2> 04. Whales cannot chew food, due to the fact that they do not have Molars, they are the teeth which help many creatures chew </h2>
 <h2> 05. The Atlantic Ocean has the most whales of any ocean </h2>
 <h2> 06. The whales with the longest lifespans are Humpback Whales and Blue Whales, they live for 80-90 years</h2>
+<h2> 07. Whales are divided into 2 types, toothed and balleen they are determined, based on how they feed. An example of a toothed whale is a Dolphin, an exmaple of a baleen whale is the Blue Whale.</h2>
 <!---GOING TO ADD AN IMAGE FROM SONIC ADVENTURE BELOW-->
 <img src = "/sonicAdventureWhale.jpg" alt = "Sonic the Hedgehog, a blue hedgehog, running along a boardwalk while an Orca attacks from behind">
 

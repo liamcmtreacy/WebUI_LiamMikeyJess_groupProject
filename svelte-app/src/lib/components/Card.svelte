@@ -29,7 +29,7 @@ export let title = "Card Title";
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     text-align: center;
-    width: 50%;
+    width: 30%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
@@ -46,7 +46,7 @@ export let title = "Card Title";
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     text-align: center;
-    width: 50%;
+    width: 30%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
@@ -63,7 +63,7 @@ export let title = "Card Title";
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     text-align: center;
-    width: 50%;
+    width: 30%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
