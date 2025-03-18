@@ -23,7 +23,7 @@
 
 <img src = "/starbucks.png" alt = "Starbucks Logo of a green lady, on a white background">
 
-<h3>The famous coffee chain Starbucks was actually named after a character in Moby Dick, a character in the novel named Starbuckm who 
+<h3>The famous coffee chain Starbucks was actually named after a character in Moby Dick, a character in the novel named Starbuck who 
     was the first mate of the pequod.
 </h3>
 

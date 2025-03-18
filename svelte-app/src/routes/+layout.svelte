@@ -1,3 +1,9 @@
+<script>
+import Footer from '$lib/components/Footer.svelte';
+
+</script>
+
+
 <header> 
     <nav>
 <ul>
@@ -10,14 +16,11 @@
     </nav>
 </header>
 
-
-<footer>
-    <h4>&copy; 2025, The Wonderful World of Whales. All RIghts Reserved</h4>
-</footer>
-
 <main> 
     <slot />
 </main>
+
+<Footer />
 <style>
     header {
         background-color: #007bff;
@@ -46,16 +49,7 @@
     main {
         padding: 2rem;
         text-align: center;
+        min-height: 100vh;
     }
-
-footer {
-    background-color: rgb(51, 0, 255);
-    color: white;
-    text-align: left;
-    padding: 0.25rem;
-    position: fixed;
-    bottom: 0;
-    width: 2500px;
-}
 </style>
 
