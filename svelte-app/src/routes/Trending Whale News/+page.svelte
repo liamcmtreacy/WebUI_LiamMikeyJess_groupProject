@@ -1,9 +1,3 @@
-<script>
-
-	import { Card } from "$lib";
-
-</script>
-
 <div class = "strandedWhaleCard">
     <img src = "/beachedWhalesAus.png" alt = "Whales Stranded on the Beach">
     <p>OVER 150 WHALES STRANDED ON THE BEACH, READ NOW!</p>
@@ -72,5 +66,3 @@
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 </style>
-
-<!--TRENDING PAGE WITH CARDS-->

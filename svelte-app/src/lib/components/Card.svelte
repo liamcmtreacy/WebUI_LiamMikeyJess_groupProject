@@ -31,6 +31,7 @@ export let title = "Card Title";
     text-align: center;
     width: 30%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeInSlide 0.6s ease-out;
     }
 
 .Card > img {
@@ -48,6 +49,7 @@ export let title = "Card Title";
     text-align: center;
     width: 30%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeInSlide 0.6s ease-out;
     }
 
 .Card02 > img {
@@ -65,6 +67,7 @@ export let title = "Card Title";
     text-align: center;
     width: 30%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeInSlide 0.6s ease-out;
     }
 
 .Card03 > img {
@@ -137,5 +140,23 @@ p {
     animation: fadeInSlide 0.6s ease ease-out;
 }
 
+div {
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+}
 
+@keyframes fadeInSlide 
+{
+0% {
+opacity: 0;
+transform: translateY(20px);
+}
+
+100% {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
 </style>

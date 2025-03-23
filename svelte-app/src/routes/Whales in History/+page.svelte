@@ -10,8 +10,6 @@
     <img src = "/skyNewsWhale.jpg" alt = "An ancient depiction of what is believed to be the largest whale of all time, who is grey in color">
 </a>
 
-
-
 <style>
 h1 {
     font-family: cursive;
