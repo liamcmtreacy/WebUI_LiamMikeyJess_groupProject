@@ -1,6 +1,5 @@
 <script>
 import Footer from '$lib/components/Footer.svelte';
-
 </script>
 
 
@@ -24,7 +23,7 @@ import Footer from '$lib/components/Footer.svelte';
 <style>
     header {
         background-color: #007bff;
-        padding: 1rem;
+        padding: 2rem;
         text-align: center;
     }
 

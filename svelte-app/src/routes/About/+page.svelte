@@ -16,9 +16,10 @@
 
 
     <div class = "TheTeamGallery">
-        <Card title = "We are the masterminds, behind this lovely website">
+        <Card title = "I am one of the masterminds, behind this lovely website">
         </Card> 
         </div>
+
 
         <button on:click={() => showModal = true}> Open Modal </button>
         <Modal bind:isOpen={showModal} title= "Welcome"></Modal>

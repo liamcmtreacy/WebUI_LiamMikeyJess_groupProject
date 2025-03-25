@@ -1,25 +1,44 @@
 <script>
 export let title = "Card Title";
+export let description1 = "Hi, welcome to our Whale Website. My name is Mikey Holmes, I am 21 years old, and I am a student of SETU Carlow, you can contact me at C00300796@setu.ie";
+export let description2 = "Hi, welcome to our Whale Website. My name is Jessica Curran, I am 21 years old, and I am a student of SETU Carlow, you can contact me at C00300855@setu.ie";
+export let description3 = "Hi, welcome to our Whale Wabsite. My name is Liam Treacy I am 21 years old, and I am a student of SETU Carlow, you can contact me at C00298242@setu.ie";
+let expanded = false;
 </script>
 
 <div class = "Card">
 <img src = "/teamMemberMikey.jpg" alt = "Hello, I'm Mikey Holmes, this is my portrait">
-<p>Hello, my name is Mikey Holmes!</p>
+<div class = "content">
+    <h2>{title}</h2>
+</div>
+<p>{expanded ? description1 : description1.substring(0, 3) + '...'}</p>
+<button on:click={() => expanded = !expanded}>
+    {expanded ? "Read Less" : "Read More"}
+    </button>
 </div>
 
 <div class = "Card02">
 <img src = "/teamMemberJessica.jpg" alt = "Hello, I'm Jessica Curran, this is my portrait">
-<p>Hello, my name is Jessica Curran!</p>
+<div class = "content">
+    <h2>{title}</h2>
+</div>
+<p>{expanded ? description2 : description2.substring(0, 3) + '...'}</p>
+<button on:click={() => expanded = !expanded}>
+    {expanded ? "Read Less" : "Read More"}
+    </button>
 </div>
 
 <div class = "Card03">
 <img src = "/teamMemberLiam.jpg" alt = "Hello, I'm Liam Treacy, this is my portrait">
-<p>Hello, my name is Liam Treacy, you can contact me at C00298242@setu.ie</p>
-</div>
-
 <div class = "content">
     <h2>{title}</h2>
 </div>
+<p>{expanded ? description3 : description3.substring(0, 3) + '...'}</p>
+<button on:click={() => expanded = !expanded}>
+    {expanded ? "Read Less" : "Read More"}
+    </button>
+</div>
+
 
 <style>
     .Card{
@@ -108,12 +127,6 @@ export let title = "Card Title";
     background: #007bff;
     margin: 0 auto 10px auto;
     transition: width 0.3s ease-in-out;
-}
-
-p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 13px;
-    font-weight: bold;
 }
 
 @keyframes fadeInSlide {
