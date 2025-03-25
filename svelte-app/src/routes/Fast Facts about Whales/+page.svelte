@@ -27,7 +27,7 @@ img {
 h1 {
     font-size: 30px;
     font-family:cursive;
-    color: grey;
+    color: black;
 }
 
     h2 {

@@ -8,8 +8,7 @@
     <div class = "modal-overlay" transition:fade>
         <div class = "modal-content" transition:scale= {{duration: 300}}> 
             <h2>{title}</h2>
-            <p>My name is Liam Treacy, I am a 21 year old from Ballinkillen, County Carlow, my dream is 
-                to become an animator and have my own series
+            <p>If you want to learn more about Whales, visit your local museum
             </p>
             <button on:click={() => isOpen = false}>Close</button>
     </div>
@@ -31,7 +30,7 @@
 
         .modal-content {
             background: white;
-            padding: 2rem;
+            padding: 0rem;
             border-radius: 8px;
             width: 300px;
             text-align: center;

@@ -41,6 +41,8 @@ Eli Amson is a staff member of the State Museum of Natural History in Stuttgart,
     img {
     width: 300px;
     height: auto;
-    border: 2px solid black;
+    width: auto;
+    position: relative;
+    border: 1px solid black;
 }
 </style>

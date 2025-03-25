@@ -1,6 +1,6 @@
  
 <footer>
-    <h4>&copy; 2025, The Wonderful World of Whales. All RIghts Reserved</h4>
+    <h4>&copy; 2025, The Wonderful World of Whales. All Rights Reserved</h4>
 </footer>
  
 <style> 
@@ -12,6 +12,7 @@ footer {
     padding: 0.25rem;
     position: relative;
     bottom: 0;
+    font-family: cursive;
     width: 2500px;
 }
 

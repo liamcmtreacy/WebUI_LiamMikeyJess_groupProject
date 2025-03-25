@@ -1,5 +1,7 @@
+
+
 <h1> FAMOUS WHALES IN HISTORY</h1>
-<h2> Learn about Moby Dick!</h2>
+<h2> Learn about Moby Dick, the heaviest whale ever, along with other icons of Whales</h2>
 
 <a href = "/MobyDick"> 
     <img src = "/mobyDickWHALE.jpg" alt = "Moby Dick book">
@@ -15,7 +17,7 @@ h1 {
     font-family: cursive;
     font-weight: bold;
     font-size: 40px;
-    color: grey;
+    color: rgb(0, 0, 0);
 }
 
 img {

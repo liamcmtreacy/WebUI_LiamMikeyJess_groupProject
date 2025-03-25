@@ -1,3 +1,7 @@
+<script>
+import {Modal} from '$lib';
+</script>
+
 <h1> Moby Dick, by Herman Melville</h1>
 
 
