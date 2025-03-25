@@ -37,13 +37,54 @@
     }
 
     @keyframes gifs {
-        0%, 50% { 
-            background-image: url('/whaleDive.gif');
+        0%, 10% { 
+            background-image: url('/whaleJump.gif');
             opacity: 0.5;
             
         }
 
-        50%, 100% { 
+        10%, 20% { 
+            background-image: url('/orca.gif');
+            opacity: 0.5;
+            
+        }
+
+        20%, 40% { 
+            background-image: url('/whaleCrash.gif');
+            opacity: 0.5;
+        }
+
+        40%, 50% { 
+            background-image: url('/whaleAppears.gif');
+            opacity: 0.5;
+        }
+
+        50%, 60% { 
+            background-image: url('/whaleOutlineSwim.gif');
+            opacity: 0.5;
+        }
+
+        60%, 70% { 
+            background-image: url('/dolphin.gif');
+            opacity: 0.5;
+        }
+
+        70%, 80% { 
+            background-image: url('/whaleCrash.gif');
+            opacity: 0.5;
+        }
+
+        70%, 80% { 
+            background-image: url('/waterOrca.gif');
+            opacity: 0.5;
+        }
+
+        80%, 90% { 
+            background-image: url('/whaleSave.gif');
+            opacity: 0.5;
+        }
+
+        90%, 100% { 
             background-image: url('/whaleUnderwater.gif');
             opacity: 0.5;
             

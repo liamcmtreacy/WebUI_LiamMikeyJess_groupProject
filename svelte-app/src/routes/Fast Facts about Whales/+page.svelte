@@ -7,22 +7,12 @@
 <h2> 05. The Atlantic Ocean has the most whales of any ocean </h2>
 <h2> 06. The whales with the longest lifespans are Humpback Whales and Blue Whales, they live for 80-90 years</h2>
 <h2> 07. Whales are divided into 2 types, toothed and balleen they are determined, based on how they feed. An example of a toothed whale is a Dolphin, an exmaple of a baleen whale is the Blue Whale.</h2>
-
-
-
-
-<img src = "/sonicAdventureWhale.gif" alt = "Sonic the Hedgehog, a blue hedgehog, running along a boardwalk while an Orca attacks from behind">
-
+<h2> 08. Killer Whales are very social creatures</h2>
+<div class="gifBG">
+    <div class="overlay"></div>
+</div>
 
 <style>
-
-img {
-    width: 600px;
-    height: auto;
-    border: 4px solid rgb(51, 5, 120);
-    position: absolute;
-}
-
 
 h1 {
     font-size: 30px;
@@ -33,10 +23,31 @@ h1 {
     h2 {
         font-size: 14px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color: rgb(159, 159, 255);
+        color: black;
         font: bold;
         margin-left: auto;
         padding: 10px;
     }
+
+    .gifBG {
+        position: fixed; 
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        background-size: cover;
+        background-position: center;
+        animation: gifs 2s infinite steps(1);
+        overflow: hidden;
+        z-index: -10000;
+    }
+
+    @keyframes gifs {
+        0%, 100% { 
+            background-image: url('/sonicAdventureWhale.gif');
+            opacity: 0.3;
+        }   
+        }
+
 </style>
 
