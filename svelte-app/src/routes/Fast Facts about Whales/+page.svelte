@@ -1,3 +1,6 @@
+<!--below we will have the code to add and remove your very own fun facts-->
+
+
 <h1> Here are some rapid facts about Whales. </h1>
 
 <h2> 01. A Whale can hold its breath for around 20 minutes, for reference that is 2 minutes shorter than an episode of 'The Simpsons' </h2>
@@ -8,9 +11,29 @@
 <h2> 06. The whales with the longest lifespans are Humpback Whales and Blue Whales, they live for 80-90 years</h2>
 <h2> 07. Whales are divided into 2 types, toothed and balleen they are determined, based on how they feed. An example of a toothed whale is a Dolphin, an exmaple of a baleen whale is the Blue Whale.</h2>
 <h2> 08. Killer Whales are very social creatures</h2>
-<div class="gifBG">
-    <div class="overlay"></div>
-</div>
+
+<script>
+    let funFact = "";
+    let tasks = ['FUN FACTS'];
+
+    function addTask() {
+        tasks = [...tasks, 'New Task ${tasks.length + 1}']; //ADDS NEW TASK
+    }
+
+    function removeTask(index) {
+        tasks = tasks.filter((_, i) => i !==index);
+    }
+</script>
+
+<ul>
+    {#each tasks as task, index} 
+    <li> {task} <button on:click = {() => removeTask(index)}> X </button> </li>
+    {/each}
+</ul>
+
+<button on:click={addTask}> + ADD YOUR VERY OWN FUN FACTS </button>
+<input type = "funFact" bind:value={funFact} placeholder="Enter Your Fun Facts Here">
+
 
 <style>
 
@@ -28,26 +51,5 @@ h1 {
         margin-left: auto;
         padding: 10px;
     }
-
-    .gifBG {
-        position: fixed; 
-        width: 100%;
-        height: 100vh;
-        top: 0;
-        left: 0;
-        background-size: cover;
-        background-position: center;
-        animation: gifs 2s infinite steps(1);
-        overflow: hidden;
-        z-index: -10000;
-    }
-
-    @keyframes gifs {
-        0%, 100% { 
-            background-image: url('/sonicAdventureWhale.gif');
-            opacity: 0.3;
-        }   
-        }
-
 </style>
 

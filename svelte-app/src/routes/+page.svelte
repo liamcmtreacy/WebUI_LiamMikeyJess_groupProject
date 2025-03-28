@@ -1,5 +1,12 @@
 <script>
+let emailAddress = "";
+let isValid = false;
 
+// this will allow users to subscribe to our newsletter
+function validateEmail(){
+const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+isValid = regex.test(emailAddress);
+}
 </script>
 
 <h1>Welcome to our Whales News Site</h1>
@@ -9,6 +16,22 @@
 <div class="gifBG">
     <div class="overlay"></div>
 </div>
+
+<h2> Hey, why not Subscribe to our newsletter!</h2>
+
+<!---INPUT YOUR EMAIL BELOW-->
+
+<input type = "emailAddress" bind:value={emailAddress} on:input={validateEmail} placeholder="Enter Your Email Address Here">
+
+<!---Real Time Validation Feedback-->
+
+{#if emailAddress}
+{#if isValid}
+<p style="color: green;">✅ Your Email Address is Valid  </p>
+{:else}
+<p style="color: red;">❌ Sorry, your Email Address doesn't seem to be recognized</p>
+{/if}
+{/if}
 
 <style>
     h1 {

@@ -36,12 +36,7 @@
         />
     </div>
         <button on:click={() => showModal = true}> Open Modal </button>
-        <Modal bind:isOpen={showModal} title= "Guess What?"></Modal>
-
-        <h1> FUN FACTS ABOUT THE TEAM </h1>
-        <p> Mikey and Jessica were both born on the exact same day</p>
-        <p> Liam's favorite food is Chicken Fried Rice</p>
-        <p> Liam was once picked to be a part of a street show in Central Park</p>
+        <Modal bind:isOpen={showModal} title= "We appreciate the help"></Modal>
 
     <style>
         h1 {color: #5aa1ed; 
@@ -56,7 +51,6 @@
             align-content: center;
             justify-content: space-between
         }
-
     </style>
 
 <!---INSTEAD OF A CONTACT PAGE, WE WILL HAVE OUR CONTACT INFORMATION IN THE ABOUT PAGE-->

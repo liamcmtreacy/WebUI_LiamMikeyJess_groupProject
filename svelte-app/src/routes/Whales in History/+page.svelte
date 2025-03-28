@@ -12,6 +12,9 @@
     <img src = "/skyNewsWhale.jpg" alt = "An ancient depiction of what is believed to be the largest whale of all time, who is grey in color">
 </a>
 
+<!--PLAN TO MAKE THIS THE BACKGROUND FOR THE WHALES IN HISTORY PAGE-->
+<img src = "/oldNewsPaper.jpg" alt = "Old newspaper layout for Whales in History page" id="newsPaper">
+
 <style>
 h1 {
     font-family: cursive;

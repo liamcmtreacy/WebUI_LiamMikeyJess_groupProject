@@ -5,10 +5,10 @@
 <nav>
     <ul>
         <li><a href = "/"> Home</a></li>
-        <li><a href = "/About"> About The Team</a></li>
         <li><a href = "/Trending Whale News"> Trending News About Whales</a></li>
-        <li><a href = "/Whales in History"> Famous Whales In History </a></li>
         <li><a href = "/Fast Facts about Whales">Fun Facts about Whales</a></li>
+        <li><a href = "/Whales in History"> Famous Whales In History </a></li>
+        <li><a href = "/About"> About The Team</a></li>
     </ul>
 </nav>
 
