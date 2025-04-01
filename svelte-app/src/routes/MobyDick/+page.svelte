@@ -97,4 +97,49 @@ import {Footer} from '$lib';
         width: 250px;
         height: 250px;
     }
+
+    /*MOBILE RESPOVINESS */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.column {
+  width: 50%;
+  float: left;
+}
+
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+    float: none;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-size: 16px;
+}
+h1 {
+  font-size: 2em;  /* 32px */
+}
+
+h2 {
+  font-size: 1em;  /* 16px */
+}
+
+h3 {
+    font-size: 0.5em;
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 18px;
+  }
+}
+
 </style>

@@ -1,8 +1,22 @@
-<!--below we will have the code to add and remove your very own fun facts-->
+<script>
+    let funFact = "";
+    let tasks = ['FUN FACTS'];
+
+    function addTask() {
+        tasks = [...tasks, `${funFact} ${tasks.length}`]; //ADDS NEW TASK
+    }
+
+    function removeTask(index) {
+        tasks = tasks.filter((_, i) => i !==index);
+    }
+</script>
+
+
 
 
 <h1> Here are some rapid facts about Whales. </h1>
 
+<div class = "facts">
 <h2> 01. A Whale can hold its breath for around 20 minutes, for reference that is 2 minutes shorter than an episode of 'The Simpsons' </h2>
 <h2> 02. Orca, also known as Killer Whales, are actually closer relations to Dolphins, than Whales. </h2>
 <h2> 03. In the 1998 Video Game 'Sonic Adventure', an Orca famously attacks Sonic in the game's opening stage "Emerald Coast", this moment has since become an iconic scene in Gaming. It was referenced in the franchise's 15th anniversary title 'Sonic The Hedgehog' with the opening level 'Wave Ocean' </h2>
@@ -16,19 +30,7 @@
 <h2> 11. Sperm Whales can reach a top speed of 36KPH</h2>
 <h2> 12. Sperm Whales have the heaviest brains on earth, with their brains weighing 9KG</h2>
 <h2> 13. According to Chinese Folklore and Legend, the god of the sea is depicted as a large whale which has human limbs</h2>
-
-<script>
-    let funFact = "";
-    let tasks = ['FUN FACTS'];
-
-    function addTask() {
-        tasks = [...tasks, 'New Task ${tasks.length + 1}']; //ADDS NEW TASK
-    }
-
-    function removeTask(index) {
-        tasks = tasks.filter((_, i) => i !==index);
-    }
-</script>
+</div>
 
 <ul>
     {#each tasks as task, index} 
@@ -48,12 +50,54 @@ h1 {
     color: black;
 }
 
-    h2 {
-        font-size: 14px;
+    .facts {
+        font-size: 21px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color: black;
+        color: rgb(0, 0, 0);
         font: bold;
-        margin-left: auto;
+        margin-left: -30px;
         padding: 10px;
     }
+ 
+/*MOBILE RESPOVINESS */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.column {
+  width: 50%;
+  float: left;
+}
+
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+    float: none;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-size: 16px;
+}
+h1 {
+  font-size: 2em;  /* 32px */
+}
+
+h2 {
+  font-size: 1em;  /* 16px */
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+
 </style>

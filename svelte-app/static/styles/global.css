@@ -47,10 +47,3 @@ a:hover {
 }
 
 /* DARK MODE, HELP BY LIBOR */
-
-@media(prefers-color-scheme: dark)
-{
-    :root {
-    --background-color: #333;
-}
-}

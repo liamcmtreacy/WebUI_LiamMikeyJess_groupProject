@@ -12,6 +12,7 @@ https://thefactfile.org/facts-about-whales/
 
 https://bookriot.com/a-simple-tale-about-man-who-hates-an-animal-moby-dick-in-pop-culture/
 
+image named oldNewsPaper used for inspiration for History page
 
 
 Error Page code provided by Libor
