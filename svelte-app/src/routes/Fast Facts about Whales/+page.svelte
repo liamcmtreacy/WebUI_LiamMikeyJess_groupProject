@@ -11,6 +11,11 @@
 <h2> 06. The whales with the longest lifespans are Humpback Whales and Blue Whales, they live for 80-90 years</h2>
 <h2> 07. Whales are divided into 2 types, toothed and balleen they are determined, based on how they feed. An example of a toothed whale is a Dolphin, an exmaple of a baleen whale is the Blue Whale.</h2>
 <h2> 08. Killer Whales are very social creatures</h2>
+<h2> 09. Captive Whales sometimes mimic human speech</h2>
+<h2> 10. Most Whales have 3-4 Stomachs</h2>
+<h2> 11. Sperm Whales can reach a top speed of 36KPH</h2>
+<h2> 12. Sperm Whales have the heaviest brains on earth, with their brains weighing 9KG</h2>
+<h2> 13. According to Chinese Folklore and Legend, the god of the sea is depicted as a large whale which has human limbs</h2>
 
 <script>
     let funFact = "";
@@ -52,4 +57,3 @@ h1 {
         padding: 10px;
     }
 </style>
-
