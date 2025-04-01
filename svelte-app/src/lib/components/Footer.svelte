@@ -1,6 +1,6 @@
  
 <footer>
-    <h4>&copy; 2025, The Wonderful World of Whales. All Rights Reserved</h4>
+    <h4>&copy; 2025, The World of Whales. All Rights Reserved</h4>
 </footer>
  
 <style> 

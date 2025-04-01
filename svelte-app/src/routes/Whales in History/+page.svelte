@@ -1,5 +1,4 @@
 <h1> FAMOUS WHALES IN HISTORY</h1>
-<h2> Learn about Moby Dick, the heaviest whale ever, along with other icons of Whales</h2>
 
 <a href = "/MobyDick"> 
     <img id = "MobyDick" src = "/mobyDickWHALE.jpg" alt = "Moby Dick book">
@@ -10,9 +9,9 @@
     <img id = "collosus" src = "/skyNewsWhale.jpg" alt = "An ancient depiction of what is believed to be the largest whale of all time, who is grey in color">
 </a>
 
-<!--PLAN TO MAKE THIS THE BACKGROUND FOR THE WHALES IN HISTORY PAGE-->
-<a href = "NewsPaper"></a>
 <img id = "oldNews" src = "/oldNewsPaper.jpg" alt = "Old newspaper layout for Whales in History page">
+<!--PLAN TO MAKE THIS THE BACKGROUND FOR THE WHALES IN HISTORY PAGE-->
+
 
 <style>
 h1 {
@@ -23,9 +22,11 @@ h1 {
 }
 
 #oldNews {
-    width: 550px;
-    height: 240px;
-    border: 4px solid black;
+    z-index: -100;
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-position: center;
 }
 
 #collosus {

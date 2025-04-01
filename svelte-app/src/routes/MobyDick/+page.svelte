@@ -26,27 +26,39 @@ import {Footer} from '$lib';
 <h3> In 1956, Moby Dick was adapted for a feature length film by Warner Bros, starring Hollywood Superstar Gregory Peck
 </h3>
 
-<img id = "starbucks" src = "/starbucks.png" alt = "Starbucks Logo of a green lady, on a white background">
 
 <h3>The famous coffee chain Starbucks was actually named after a character in Moby Dick, a character in the novel named Starbuck who 
     was the first mate of the pequod.
 </h3>
+<img id = "starbucks" src = "/starbucks.png" alt = "Starbucks Logo of a green lady, on a white background">
 
 <h3>Moby Dick has also made several appearences in animated series, including Family Guy, Futurama, Tom and Jerry and The Simpsons</h3>
 
+<img id = "simpsons" src = "/simpsonsMDbook.png" alt = "Martin Prince, from the simpsons reading Moby Dick">
+<img id = "family_guy" src = "/FGMD.png" alt = "Peter Griffin sitting at the dinner table with Moby Dick">
+<img id = "tom_and_jerry" src = "/DickyMoe.jpg" alt = "a pirate captain obsessed with catching Dicky Moe, a parody of Moby Dick">
+
 <style>
     h1 {
+        margin: auto;
+        max-width: fit-content;
         font-family: cursive;
         font-size: 30px;
+        color: rgb(0, 0, 0);
         font-weight: bold;
     }
 
     h2 {
+        margin: auto;
+        max-width: fit-content;
         font-family: cursive;
         font-size: 18px;
+        color: rgb(0, 0, 0);
     }
 
     h3 {
+        margin: auto;
+        max-width: fit-content;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 16px;
         color: rgb(0, 0, 0);
@@ -56,13 +68,33 @@ import {Footer} from '$lib';
     width: 300px;
     height: auto;
     border: 2px solid rgb(0, 0, 0);
+    margin-left: auto;
+
     }
 
     #bookCover {
-        margin-right: auto;
+        margin: auto;
         width: 250px;
         height: auto;
         border: 2px solid black;
         display: flex;
+    }
+
+    #simpsons {
+        border: 1px solid black;
+        width: 250px;
+        height: 250px;
+    }
+
+    #family_guy {
+        border: 1px solid black;
+        width: 250px;
+        height: 250px;
+    }
+
+    #tom_and_jerry {
+        border: 1px solid black;
+        width: 250px;
+        height: 250px;
     }
 </style>
