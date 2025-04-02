@@ -20,7 +20,7 @@
             title = "I am one of the masterminds, behind this lovely website" 
             src="/teamMemberMikey.jpg" 
             alt="Hello, I'm Mikey Holmes, this is my portrait" 
-            description="Hi, welcome to our Whale Website. My name is Mikey Holmes, I am 21 years old, and I am a student of SETU Carlow, you can contact me at C00300796@setu.ie"
+            description="Hi, welcome to our Whale Website. My name is Mikey Holmes, I am 21 years old, and I am a student of SETU Carlow, you can contact me at C00300796@setu.ie, I chose this course because I have a good understanding of computing. I’m especially interested in digital art and design, and I hope it will help me develop my skills in different computing areas and build a great career."
         /> 
         <Card 
             title = "I am one of the masterminds, behind this lovely website" 

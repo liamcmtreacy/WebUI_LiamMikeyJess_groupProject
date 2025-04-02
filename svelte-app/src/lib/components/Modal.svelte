@@ -38,13 +38,16 @@
         }
 
         .modal-content button {
-            margin-top: 1rem;
             background: #007bff;
             color: white;
+            padding: 10px 15px;
             border: none;
-            padding: 10px 20px;
+            border-radius: 5px;
             cursor: pointer;
-            transition: background-color 0.3s ease;
+            font-size: 16px;
+             margin-top: 5px;
+            margin-bottom: 10px;
+            transition: background 0.3s ease;
         }
 
         .modal-content button:hover {
