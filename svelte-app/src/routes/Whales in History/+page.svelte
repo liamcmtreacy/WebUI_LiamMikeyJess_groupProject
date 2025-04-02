@@ -1,60 +1,64 @@
-<h1> FAMOUS WHALES IN HISTORY, LEARN ABOUT MOBY DICK, PERCUCTUS COLLOSUS</h1>
+<h1> FAMOUS WHALES IN HISTORY</h1>
+
+<div class = "grid">
 
 <a href = "/MobyDick"> 
+    <p> Learn all about Herman Melville's character "Moby Dick"</p>
     <img id = "MobyDick" src = "/mobyDickWHALE.jpg" alt = "Moby Dick book">
 </a>
 
 <a href = "340_Ton_Whale">
+    <p> Learn all about Peructus Collosus</p>
     <img id = "collosus" src = "/skyNewsWhale.jpg" alt = "An ancient depiction of what is believed to be the largest whale of all time, who is grey in color">
 </a>
 
-<img id = "oldNews" src = "/oldNewsPaper.jpg" alt = "Old newspaper layout for Whales in History page">
-<!--PLAN TO MAKE THIS THE BACKGROUND FOR THE WHALES IN HISTORY PAGE-->
-
+</div>
 
 <style>
-h1 {
-    font-family: cursive;
-    font-size: 40px;
-    color: white;
-    position: fixed;
-    margin-top: -10px;
-}
 
-/* HELP FROM W3schools for this below portion of Old News */
-    #oldNews {
-    position: fixed; 
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("/oldNewsPaper.jpg");
-    background-size: cover;
-    background-position: center;
-    z-index: -100; 
-}
+    h1 {
+            font-family: "Times New Roman";
+            font-size: 48px;
+            font-weight: bold;
+            text-align: center;
+            border-bottom: 2px solid black;
+        }
+
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        background-color: #A0522D;
+        padding: 30px;
+    }
+
+    #MobyDick {
+        background: rgba(255, 255, 255, 0.2);
+        border: 2px solid white;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    #collosus {
+        background: rgba(255, 255, 255, 0.2);
+        border: 2px solid white;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: left;
+    }
 
 
-#collosus {
-    display: flex auto;
-    height: 250px;
-    width: 400px;
-    border: 1px solid black;
-    position: fixed;
-    margin-left: 280px;
-    margin-top: 339px;
-}
+    img {
+        max-width: 100%;
+        height: auto;
+        border: 2px solid white;
+        border-radius: 10px;
+    }
 
-#MobyDick {
-width: 422px;
-margin-left: -680px;
-margin-top: 50px;
-height: 250px;
-border: 2px solid black;
-position: fixed;
-}
-
+    p {
+        color: white;
+    }
 </style>
-
 
 

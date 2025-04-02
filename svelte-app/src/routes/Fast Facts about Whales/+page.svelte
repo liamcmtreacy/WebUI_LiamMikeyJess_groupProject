@@ -1,12 +1,12 @@
 <script>
     let funFact = "";
-    let tasks = ['FUN FACTS'];
+    let tasks = ['CUSTOM FUN FACTS'];
 
-    function addTask() {
-        tasks = [...tasks, `${funFact} ${tasks.length}`]; //ADDS NEW TASK
+    function addFact() {
+        tasks = [...tasks, `${tasks.length} ${funFact}`]; //ADDS NEW TASK
     }
 
-    function removeTask(index) {
+    function removeFact(index) {
         tasks = tasks.filter((_, i) => i !==index);
     }
 </script>
@@ -34,11 +34,11 @@
 
 <ul>
     {#each tasks as task, index} 
-    <li> {task} <button on:click = {() => removeTask(index)}> X </button> </li>
+    <li> {task} <button on:click = {() => removeFact(index)}> ⛔ </button> </li>
     {/each}
 </ul>
 
-<button on:click={addTask}> + ADD YOUR VERY OWN FUN FACTS </button>
+<button on:click={addFact}> ➕ ADD YOUR VERY OWN FUN FACTS </button>
 <input type = "funFact" bind:value={funFact} placeholder="Enter Your Fun Facts Here">
 
 
@@ -55,49 +55,9 @@ h1 {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: rgb(0, 0, 0);
         font: bold;
-        margin-left: -30px;
+        padding-left: 50px;
         padding: 10px;
     }
  
 /*MOBILE RESPOVINESS */
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.column {
-  width: 50%;
-  float: left;
-}
-
-@media (max-width: 600px) {
-  .column {
-    width: 100%;
-    float: none;
-  }
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-body {
-  font-size: 16px;
-}
-h1 {
-  font-size: 2em;  /* 32px */
-}
-
-h2 {
-  font-size: 1em;  /* 16px */
-}
-
-@media (max-width: 480px) {
-  body {
-    font-size: 18px;
-  }
-}
-
-
 </style>

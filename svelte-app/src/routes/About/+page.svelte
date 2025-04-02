@@ -41,7 +41,8 @@
     <style>
         h1 {color: #5aa1ed; 
         font-size: 25px;
-        font-family: cursive;}
+        font-family: cursive;
+        border-bottom: #5aa1ed;}
 
         p { font-size: 18px;
         font-family: cursive; }

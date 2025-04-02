@@ -99,37 +99,22 @@ import {Footer} from '$lib';
     }
 
     /*MOBILE RESPOVINESS */
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.column {
-  width: 50%;
-  float: left;
-}
 
 @media (max-width: 600px) {
-  .column {
-    width: 100%;
-    float: none;
+
   }
-}
 
 img {
   max-width: 100%;
   height: auto;
 }
 
-body {
-  font-size: 16px;
-}
 h1 {
-  font-size: 2em;  /* 32px */
+  font-size: 2em; 
 }
 
 h2 {
-  font-size: 1em;  /* 16px */
+  font-size: 1em;  
 }
 
 h3 {
@@ -137,9 +122,6 @@ h3 {
 }
 
 @media (max-width: 480px) {
-  body {
-    font-size: 18px;
-  }
 }
 
 </style>

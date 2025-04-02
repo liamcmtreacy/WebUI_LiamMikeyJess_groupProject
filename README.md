@@ -12,8 +12,19 @@ https://thefactfile.org/facts-about-whales/
 
 https://bookriot.com/a-simple-tale-about-man-who-hates-an-animal-moby-dick-in-pop-culture/
 
-image named oldNewsPaper used for inspiration for History page
+https://www.w3schools.com/cssref/css_colors.php
+USED FOR COLOR CODES
 
+//CODE CREDITS
 
 Error Page code provided by Libor
+
+GIF help from Libor, Pavel, Jake and Eliska
+
+W3schools for help with the background image on Whales In Histroy Page
+https://www.w3schools.com/html/html_images_background.asp
+
+// HELP UNDERSTANDING GLOBAL BODY
+https://svelte.dev/tutorial/svelte/svelte-body
+
 Special Thanks to Libor and Milu
