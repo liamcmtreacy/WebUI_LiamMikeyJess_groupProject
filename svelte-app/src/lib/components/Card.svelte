@@ -12,10 +12,10 @@
 <div class = "content">
     <h2>{title}</h2>
 </div>
-<p>{expanded ? description : description.substring(0, 3) + '...'}</p>
-<button on:click={() => expanded = !expanded}>
+<p transition:fade>{expanded ? description : description.substring(0, 100) + '...'}</p>
+<button class="read-more" on:click={() => expanded = !expanded}>
     {expanded ? "Read Less" : "Read More"}
-    </button>
+</button>
 </div>
 
 
@@ -84,4 +84,32 @@
             transform: translateY(0);
         }
     }
+    
+    .read-more {
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    transition: background 0.3s ease;
+    }
+
+    .read-more:hover {
+    background: #0056b3;
+    }
+
+    p {
+    font-size: 16px;
+    color: #333; 
+    line-height: 1.6; 
+    text-align: justify; 
+    padding: 10px; 
+    max-width: 90%; 
+    margin: 0 auto; 
+    }
+
 </style>
