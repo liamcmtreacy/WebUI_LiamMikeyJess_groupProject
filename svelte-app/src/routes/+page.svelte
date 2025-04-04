@@ -35,13 +35,13 @@ isValid = regex.test(emailAddress);
 
 <style>
     h1 {
-        font-family: cursive;
+        font-family: 'Courier New', Courier, monospace;
         font-weight: bold;
     }
 
 
     p {
-        font-family:cursive;
+        font-family: 'Courier New', Courier, monospace;
         color: rgb(0, 0, 0);
     }
 

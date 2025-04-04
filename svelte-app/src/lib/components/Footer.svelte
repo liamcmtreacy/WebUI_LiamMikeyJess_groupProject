@@ -12,8 +12,8 @@ footer {
     padding: 0.25rem;
     position: relative;
     bottom: 0;
-    font-family: cursive;
-    width: 2500px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
 }
 
 @media (max-width: 768px) {

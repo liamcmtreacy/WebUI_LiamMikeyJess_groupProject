@@ -69,10 +69,12 @@
     main {
         padding: 2rem;
         text-align: center;
+        font-family: 'Courier New', Courier, monospace;
     }
 
     .whaleNews {
             display: flex;
+            font-family: 'Courier New', Courier, monospace;;
             align-content: center;
             justify-content: space-between
         }

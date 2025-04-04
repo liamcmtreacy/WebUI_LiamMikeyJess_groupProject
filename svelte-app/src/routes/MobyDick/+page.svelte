@@ -9,10 +9,15 @@ import {Footer} from '$lib';
 <h2> What is Moby Dick?</h2> 
 <h3>Moby Dick is an 1851 Epic Novel written by Herman Melville. It follows the leader of Whaling Ship, Captain Ahab,
     who is determined to hunt down and kill the legendary white sperm whale "Moby Dick". It was published on October 18th 1851 in the UK
-    and then the following month on November 14th, 1851 in the US, with a 210,000 word count.
+    and then the following month on November 14th, 1851 in the US, with a 210,000 word count. 
+    Moby Dick himself is probably the most iconic aspect of the book, and interpretations of its meaning range from the Judeo-Christian God to atheism and anything you can think off in between. 
 </h3>
-
 <img id = "bookCover" src = "/mobyDickShip.jpg" alt = "Moby Dick eating part of a ship">
+
+<h2> Herman Melville</h2>
+<h3></h3>
+
+
 
 <h2> How popular was Moby Dick at the time?</h2>
 <h3> During Herman Melville's life, only 3715 copies of Moby Dick were sold, the book was a flop! Earning only $1259 for Melville</h3>
@@ -29,9 +34,8 @@ import {Footer} from '$lib';
 
 <h3>The famous coffee chain Starbucks was actually named after a character in Moby Dick, a character in the novel named Starbuck who 
     was the first mate of the pequod.
+    <img id = "starbucks" src = "/starbucks.png" alt = "Starbucks Logo of a green lady, on a white background">
 </h3>
-<img id = "starbucks" src = "/starbucks.png" alt = "Starbucks Logo of a green lady, on a white background">
-
 <h3>Moby Dick has also made several appearences in animated series, including Family Guy, Futurama, Tom and Jerry and The Simpsons</h3>
 
 <img id = "simpsons" src = "/simpsonsMDbook.png" alt = "Martin Prince, from the simpsons reading Moby Dick">
@@ -40,28 +44,27 @@ import {Footer} from '$lib';
 
 <style>
     h1 {
-        margin: auto;
-        max-width: fit-content;
-        font-family: cursive;
+        font-family: 'Courier New', Courier, monospace;
         font-size: 30px;
         color: rgb(0, 0, 0);
         font-weight: bold;
+        text-align: left;
     }
 
     h2 {
-        margin: auto;
         max-width: fit-content;
-        font-family: cursive;
-        font-size: 18px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 24px;
         color: rgb(0, 0, 0);
+        text-align: left;
     }
 
     h3 {
-        margin: auto;
         max-width: fit-content;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 16px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 18px;
         color: rgb(0, 0, 0);
+        text-align: left;
     }
 
     #starbucks {
@@ -99,29 +102,4 @@ import {Footer} from '$lib';
     }
 
     /*MOBILE RESPOVINESS */
-
-@media (max-width: 600px) {
-
-  }
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-h1 {
-  font-size: 2em; 
-}
-
-h2 {
-  font-size: 1em;  
-}
-
-h3 {
-    font-size: 0.5em;
-}
-
-@media (max-width: 480px) {
-}
-
 </style>

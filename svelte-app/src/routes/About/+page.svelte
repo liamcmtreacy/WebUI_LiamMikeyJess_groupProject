@@ -35,17 +35,17 @@
             description="Hi, welcome to our Whale Website. My name is Liam Treacy I am 21 years old, and I am a student of SETU Carlow, you can contact me at C00298242@setu.ie. The reason I chose to study IDAD in carlow, was because I wanted to have a course where I did not just specialise in one topic, but rather learn many topics, providing a hopefully promising career to come."
         />
     </div>
-        <button on:click={() => showModal = true}> Open Modal </button>
+        <button on:click={() => showModal = true}> Check This Out </button>
         <Modal bind:isOpen={showModal} title= "We appreciate the help"></Modal>
 
     <style>
         h1 {color: #5aa1ed; 
         font-size: 25px;
-        font-family: cursive;
+        font-family: 'Courier New', Courier, monospace;
         border-bottom: #5aa1ed;}
 
         p { font-size: 18px;
-        font-family: cursive; }
+            font-family: 'Courier New', Courier, monospace; }
 
         .team-gallery {
             display: flex;

@@ -1,7 +1,3 @@
-<script>
-
-</script>
-
 <nav>
     <ul>
         <li><a href = "/"> Home</a></li>
@@ -13,6 +9,11 @@
 </nav>
 
     <style>
+
+body {
+    overflow-x: hidden;
+}
+
         nav ul {
             list-style: none;
             padding: 0;
@@ -22,7 +23,7 @@
         }
     
         nav ul li {
-            margin: 0 70px;
+            margin: 0 50px;
         }
     
         nav ul li a {

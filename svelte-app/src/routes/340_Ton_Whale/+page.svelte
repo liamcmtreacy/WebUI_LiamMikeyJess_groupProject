@@ -1,4 +1,4 @@
-<h1>The Chunky Whale!</h1>
+<h1> The Chunky Whale!</h1>
 <h2> Who was allegdly a whopping 750,000 pounds!</h2>
 
 <p>The whale's name was Peructus Colossus, and they lived in the shallow parts of the Ocean Depths. <br>
@@ -25,23 +25,22 @@ Eli Amson is a staff member of the State Museum of Natural History in Stuttgart,
 
 <style>
     h1 {
-        font-family: cursive;
+        font-family: 'Courier New', Courier, monospace;
         font-weight: bold;
     }
 
     h2 {
-        font-family: cursive;
+        font-family: 'Courier New', Courier, monospace;
         font-weight: bold;
     }
 
     p {
-        font-family: cursive;
+        font-family: 'Courier New', Courier, monospace;
     }
 
     img {
-    width: 300px;
+    width: 1000px;
     height: auto;
-    width: auto;
     position: relative;
     border: 1px solid black;
 }

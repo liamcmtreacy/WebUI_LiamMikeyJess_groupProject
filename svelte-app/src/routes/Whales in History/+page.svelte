@@ -19,6 +19,7 @@
     h1 {
             font-family: "Times New Roman";
             font-size: 48px;
+            color: black;
             font-weight: bold;
             text-align: center;
             border-bottom: 2px solid black;
@@ -28,7 +29,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 20px;
-        background-color: #A0522D;
+        background-color: #7f2e08;
         padding: 30px;
     }
 
