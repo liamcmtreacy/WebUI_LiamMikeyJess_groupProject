@@ -40,18 +40,6 @@
         }
 
         @media (max-width: 768px) {
-    .container {
-      flex-direction: column;
-      gap: 15px;
-      padding: 10px;
-    }
-
-        .container {
-      flex-direction: column;
-      gap: 15px;
-      padding: 10px;
-    }
-
     nav {
       width: 100%;
     }
