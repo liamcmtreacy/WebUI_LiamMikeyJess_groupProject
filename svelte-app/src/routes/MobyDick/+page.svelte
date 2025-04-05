@@ -14,28 +14,43 @@ import {Footer} from '$lib';
 </h3>
 <img id = "bookCover" src = "/mobyDickShip.jpg" alt = "Moby Dick eating part of a ship">
 
-<h2> Herman Melville</h2>
-<h3></h3>
-
-
-
 <h2> How popular was Moby Dick at the time?</h2>
 <h3> During Herman Melville's life, only 3715 copies of Moby Dick were sold, the book was a flop! Earning only $1259 for Melville</h3>
 
-<h2>Why is Moby Dick popular today?</h2>
+
+<h2> Herman Melville</h2>
+<img id = "HERMAN" src = "/H_Mel.jpg" alt="Painting of Author Herman Melville">
+<h3>Born on August 1st 1819, Herman Melville was raised in New York, one of 7 siblings, his father supported the family by importing French Dry Goods,
+    however later he attempted to chance his hand in the Fur business in Alabama, this did not work, he later died two years later, leaving a bankrupt family.
+    Melville, along with all his siblings, left school to work odd jobs, in Melville's case, he worked on his uncle's farm, helping in teaching positinos, and working in a bank. <br>
+</h3>
+
+<h3> 
+    Melville always loved reading, once he left school, he read much more, falling in love with Shakespeare and Mythology, another story that stuck with him was the story of whaleship Essex, the story of a ship that was attacked by a whale and sunk.
+    In 1839, at the age of 20, Melville took his first voyage across the Atlantic sea as a cabin boy on the merchant ship the St. Lawrence. After this expedition and a year exploring the West, Melville joined the crew of the whaling ship Acushnet in January of 1841. 
+</h3>
+
+<h3>
+    In October 1844, Melville returned to his mother's house determined to write about his adventures. His adventures and travels, made his knowledge about the sea incredibly accurate, and he used it all to write his masterpiece. <br>
+    He had written 3 Novels by the time of 1851, when Moby Dick was published, however as we learned, it was a flop. <br>
+
+    After the book's failure, Melville lived in obscurity, his next novel was Pierre, was another failure, later Melville became depressed and he suffered much heartbreak and loss during the rest of his life, he later died on September 28th 1891, aged 82.
+</h3>
+
+<h2>Popularity</h2>
 <h3>During the early 20th century, critics began to rediscover Herman Melville's work, they quickly hailed his work as classics of American
-    Literature. 
+    Literature. Today his work is taught about in school and his work is beloved, Melville is now one of the most recognized authors in the world.
 </h3>
 
 <h2> Moby Dick in Pop Culture</h2>
 <h3> In 1956, Moby Dick was adapted for a feature length film by Warner Bros, starring Hollywood Superstar Gregory Peck
 </h3>
 
-
+<img id = "starbucks" src = "/starbucks.png" alt = "Starbucks Logo of a green lady, on a white background">
 <h3>The famous coffee chain Starbucks was actually named after a character in Moby Dick, a character in the novel named Starbuck who 
     was the first mate of the pequod.
-    <img id = "starbucks" src = "/starbucks.png" alt = "Starbucks Logo of a green lady, on a white background">
 </h3>
+
 <h3>Moby Dick has also made several appearences in animated series, including Family Guy, Futurama, Tom and Jerry and The Simpsons</h3>
 
 <img id = "simpsons" src = "/simpsonsMDbook.png" alt = "Martin Prince, from the simpsons reading Moby Dick">
@@ -65,6 +80,7 @@ import {Footer} from '$lib';
         font-size: 18px;
         color: rgb(0, 0, 0);
         text-align: left;
+        padding-bottom: 10px;
     }
 
     #starbucks {
@@ -72,7 +88,6 @@ import {Footer} from '$lib';
     height: auto;
     border: 2px solid rgb(0, 0, 0);
     margin-left: auto;
-
     }
 
     #bookCover {
@@ -81,6 +96,13 @@ import {Footer} from '$lib';
         height: auto;
         border: 2px solid black;
         display: flex;
+    }
+
+    #HERMAN {
+        border: 1px solid black;
+        width: auto;
+        height: auto;
+        margin-left: -1250px;
     }
 
     #simpsons {

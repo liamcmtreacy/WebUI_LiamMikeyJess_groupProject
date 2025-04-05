@@ -52,6 +52,33 @@
             align-content: center;
             justify-content: space-between
         }
+
+        @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      gap: 15px;
+      padding: 10px;
+    }
+
+    nav {
+      width: 100%;
+    }
+
+    .card {
+      width: 100px;
+      height: 100px;
+    }
+
+  nav li {
+      padding: 12px;
+      margin: 8px 0;
+      font-size: 0.95em;
+    }
+}
+
     </style>
+
+
+
 
 <!---INSTEAD OF A CONTACT PAGE, WE WILL HAVE OUR CONTACT INFORMATION IN THE ABOUT PAGE-->

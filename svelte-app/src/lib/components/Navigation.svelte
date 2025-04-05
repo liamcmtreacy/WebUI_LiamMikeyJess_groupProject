@@ -10,10 +10,6 @@
 
     <style>
 
-body {
-    overflow-x: hidden;
-}
-
         nav ul {
             list-style: none;
             padding: 0;
@@ -42,4 +38,22 @@ body {
          cursor: pointer;
          background-color: rgba(15, 161, 167, 0.753);
         }
+
+        @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      gap: 15px;
+      padding: 10px;
+    }
+
+        .container {
+      flex-direction: column;
+      gap: 15px;
+      padding: 10px;
+    }
+
+    nav {
+      width: 100%;
+    }
+}
     </style>

@@ -1,7 +1,26 @@
 <script>
 let emailAddress = "";
 let isValid = false;
+let song = null;
+// ADDING AUDIO WITH THE HELP FROM THE SVELTE SITE THIS IS THE SONG'S PROPERTIES
+const audio = {
+    name: 'Wave_ocean',
+    audio: "/waveOcean.mp3"
+};
 
+
+function loadSong() {
+		song = new Audio (audio.audio);
+		song.volume = 0.2; // I DID RESEARCH AND 1 IS THE FULL VOLUME, SO I HAVE IT LOWER FOR USERS WITH HEARING PROBLEMS
+		song.play();
+		console.log("Audio is playing!");
+	}
+
+function stopPlayingtheSong()
+{
+    song.pause();
+    console.log("audioOver");
+}
 // this will allow users to subscribe to our newsletter
 function validateEmail(){
 const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -21,7 +40,7 @@ isValid = regex.test(emailAddress);
 
 <!---INPUT YOUR EMAIL BELOW-->
 
-<input type = "emailAddress" bind:value={emailAddress} on:input={validateEmail} placeholder="Enter Your Email Address Here">
+<input type = "emailAddress" bind:value={emailAddress} on:input={validateEmail} placeholder="Enter Your Email Address">
 
 <!---Real Time Validation Feedback-->
 
@@ -32,6 +51,10 @@ isValid = regex.test(emailAddress);
 <p style="color: red;">❌ Sorry, your Email Address doesn't seem to be recognized</p>
 {/if}
 {/if}
+
+<!---BUTTONS TO PLAY AND NOT PLAY THE AUDIO-->
+<button on:click={loadSong}>Play Song</button>
+<button on:click={stopPlayingtheSong}>Stop playing the Song</button>
 
 <style>
     h1 {
