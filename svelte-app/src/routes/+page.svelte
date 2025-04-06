@@ -2,13 +2,15 @@
 let emailAddress = "";
 let isValid = false;
 let song = null;
+let subscribed = false;
+
 // ADDING AUDIO WITH THE HELP FROM THE SVELTE SITE THIS IS THE SONG'S PROPERTIES
 const audio = {
     name: 'Wave_ocean',
     audio: "/waveOcean.mp3"
 };
 
-
+//PLAY SONG
 function loadSong() {
 		song = new Audio (audio.audio);
 		song.volume = 0.2; // I DID RESEARCH AND 1 IS THE FULL VOLUME, SO I HAVE IT LOWER FOR USERS WITH HEARING PROBLEMS
@@ -16,6 +18,7 @@ function loadSong() {
 		console.log("Audio is playing!");
 	}
 
+    // IF YOU CHOOSE TO TURN OFF THE SONG
 function stopPlayingtheSong()
 {
     song.pause();
@@ -25,13 +28,15 @@ function stopPlayingtheSong()
 function validateEmail(){
 const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 isValid = regex.test(emailAddress);
+console.log("testing Email Address input by user");
 }
+
 </script>
 
 <h1>Welcome to our Whales News Site</h1>
 <p>Learn all about these wonderful Aquatic Mammals</p>
 
-
+<!--help from other classmates-->
 <div class="gifBG">
     <div class="overlay"></div>
 </div>
@@ -43,18 +48,32 @@ isValid = regex.test(emailAddress);
 <input type = "emailAddress" bind:value={emailAddress} on:input={validateEmail} placeholder="Enter Your Email Address">
 
 <!---Real Time Validation Feedback-->
+<!---USED CODE FROM LIKE BUTTON ON JAVASCRIPT NOTES, CHANGED TO FIT THE CONTEXT OF A WHALES SITE-->
+
 
 {#if emailAddress}
 {#if isValid}
+<!---DONE THIS WAY SO YOU CAN ONLY SUBSCRIBE IF YOUR EMAIL IS VALID-->
 <p style="color: green;">✅ Your Email Address is Valid  </p>
+<button on:click={() => subscribed = !subscribed}>
+    {subscribed ? "🐳You are now Subscribed" : "🐋 Not Subscribed"}
+</button>
+
 {:else}
 <p style="color: red;">❌ Sorry, your Email Address doesn't seem to be recognized</p>
 {/if}
 {/if}
 
+{#if subscribed}
+<p style ="color: blue;">YOU ARE NOW SUBSCRIBED TO OURS NEWLETTER</p>
+{:else} <!----IF YOU ARE NOT SUBSCRIBED YOU DON'T SEE THE BLUE MESSAGE-->
+{/if}
+
+<div class = "buttons">
 <!---BUTTONS TO PLAY AND NOT PLAY THE AUDIO-->
 <button on:click={loadSong}>Play Song</button>
 <button on:click={stopPlayingtheSong}>Stop playing the Song</button>
+</div>
 
 <style>
     h1 {
@@ -62,10 +81,18 @@ isValid = regex.test(emailAddress);
         font-weight: bold;
     }
 
+    h2 {
+        font-family: 'Courier New', Courier, monospace;
+        color: red;
+    }
 
     p {
         font-family: 'Courier New', Courier, monospace;
         color: rgb(0, 0, 0);
+    }
+
+    .buttons {
+        position: relative;
     }
 
     /* FOR THE GIF BACKGROUND I RECIEVED HELP FROM PAVEL, ELISKA AND JAKE */

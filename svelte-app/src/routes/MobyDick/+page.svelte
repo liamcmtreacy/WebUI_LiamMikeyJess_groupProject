@@ -51,7 +51,7 @@ import {Footer} from '$lib';
     was the first mate of the pequod.
 </h3>
 
-<h3>Moby Dick has also made several appearences in animated series, including Family Guy, Futurama, Tom and Jerry and The Simpsons</h3>
+<h3>Moby Dick has also made several appearences in animated series, including Family Guy, Futurama, Tom and Jerry and The Simpsons.</h3>
 
 <img id = "simpsons" src = "/simpsonsMDbook.png" alt = "Martin Prince, from the simpsons reading Moby Dick">
 <img id = "family_guy" src = "/FGMD.png" alt = "Peter Griffin sitting at the dinner table with Moby Dick">

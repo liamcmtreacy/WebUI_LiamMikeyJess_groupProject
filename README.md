@@ -54,6 +54,10 @@ https://svelte.dev/tutorial/svelte/svelte-body
 // HELP USING AUDIO
 https://svelte.dev/playground/93652d40f09a416d9fc177a4ac89b32b?version=5.25.6
 
+// HELP WITH FORMS
+
+https://www.mailcoach.app/resources/blog/building-a-newsletter-subscription-form-with-sveltekit-form-actions/
+
 General Classrom help from Libor Zachoval and Milu Phillip
 Blackboard Lecture Nots Weeks 6-11 from Libor Zachoval
 Special Thanks to Libor and Milu
