@@ -26,7 +26,7 @@
             title = "I am one of the masterminds, behind this lovely website" 
             src="/teamMemberJessica.jpg" 
             alt="Hello, I'm Jessica Curran, this is my portrait" 
-            description="Hi, welcome to our Whale Website. My name is Jessica Curran, I am 21 years old, and I am a student of SETU Carlow, you can contact me at C00300855@setu.ie"
+            description="Hi, welcome to our Whale Website. My name is Jessica Curran, I am 21 years old, and I am a student of SETU Carlow, you can contact me at C00300855@setu.ie, I chose this course as I have always had an interest in art and all things creative and thought this course might help develop my skills further."
         />
         <Card 
             title = "I am one of the masterminds, behind this lovely website" 
