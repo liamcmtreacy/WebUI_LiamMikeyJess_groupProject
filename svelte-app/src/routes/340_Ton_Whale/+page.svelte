@@ -28,17 +28,20 @@ Eli Amson is a staff member of the State Museum of Natural History in Stuttgart,
         font-family: 'Courier New', Courier, monospace;
         font-weight: bold;
         text-align: left;
+        color: rgb(0, 0, 0);
     }
 
     h2 {
         font-family: 'Courier New', Courier, monospace;
         font-weight: bold;
         text-align: left;
+        color: rgb(0, 0, 0);
     }
 
     p {
         font-family: 'Courier New', Courier, monospace;
         text-align: left;
+        color: rgb(0, 0, 0);
     }
 
     #WhalePainting {

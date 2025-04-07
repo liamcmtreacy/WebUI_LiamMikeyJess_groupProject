@@ -33,10 +33,14 @@
     {/each}
 </ul>
 
+<div class = "factButtons">
 <button on:click={addFact}> ➕ ADD YOUR VERY OWN FUN FACTS </button>
-<input type = "funFact" bind:value={funFact} placeholder="Enter Your Fun Facts Here">
+</div> <!---END THE DIV BUTTONS CLASS-->
 
-</div>
+<div class="input">
+<input type = "funFact" bind:value={funFact} placeholder="Enter Your Fun Facts Here">
+</div> <!--INPUT DIV-->
+</div> <!---END STYLE GRID-->
 
 <style>
 
@@ -74,6 +78,36 @@ h1 {
         padding-left: 50px;
         text-align: left;
     }
+
+    .factButtons {
+    width: auto;
+    height: auto;
+     }
+ 
+     .factButtons button {
+         background-color: #007bff; 
+         color: white;
+         font-size: 16px;
+         padding: 12px 24px;
+         border: none;
+         border-radius: 8px;
+         cursor: pointer;
+         transition: background-color 0.3s, transform 0.2s; 
+     }
+ 
+     .factButtons button:hover {
+         background-color: #0056b3; 
+         transform: scale(1.05); 
+     }
+ 
+     .factButtons button:active {
+         background-color: #004085; 
+     }
+
+     .input {
+        height: auto;
+        width: auto;
+     }
  
 /*MOBILE RESPOVINESS */
 </style>

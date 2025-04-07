@@ -26,17 +26,20 @@ import {Footer} from '$lib';
         font-family: 'Courier New', Courier, monospace;
         font-weight: bold;
         text-align: left;
+        color: rgb(0, 0, 0);
     }
 
     h2 {
         font-family: 'Courier New', Courier, monospace;
         font-weight: bold;
+        color: rgb(0, 0, 0);
         text-align: left;
     }
 
     p {
         font-family: 'Courier New', Courier, monospace;
         text-align: left;
+        color: rgb(0, 0, 0);
     }
 
     #boyorca {
