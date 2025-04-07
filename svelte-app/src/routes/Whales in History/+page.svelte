@@ -12,6 +12,11 @@
     <img id = "collosus" src = "/skyNewsWhale.jpg" alt = "An ancient depiction of what is believed to be the largest whale of all time, who is grey in color">
 </a>
 
+<a href = "freewilly">
+    <p> Learn all about FreeWilly</p>
+    <img id = "freewilly" src = "/freewilly.jpg" alt = "Orca whale from FreeWilly movie">
+</a>
+
 </div>
 
 <style>
@@ -42,6 +47,14 @@
     }
 
     #collosus {
+        background: rgba(255, 255, 255, 0.2);
+        border: 2px solid white;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: left;
+    }
+
+    #freewilly {
         background: rgba(255, 255, 255, 0.2);
         border: 2px solid white;
         padding: 20px;
