@@ -93,6 +93,27 @@ console.log("testing Email Address input by user");
 
     .buttons {
         position: relative;
+        margin-top: 20px;
+    }
+
+    .buttons button {
+        background-color: #007bff; 
+        color: white;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.2s; 
+    }
+
+    .buttons button:hover {
+        background-color: #0056b3; 
+        transform: scale(1.05); 
+    }
+
+    .buttons button:active {
+        background-color: #004085; 
     }
 
     /* FOR THE GIF BACKGROUND I RECIEVED HELP FROM PAVEL, ELISKA AND JAKE */
