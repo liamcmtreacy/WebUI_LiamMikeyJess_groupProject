@@ -40,8 +40,18 @@
         }
 
         @media (max-width: 768px) {
-    nav {
-      width: 100%;
-    }
+        nav {
+            width: 100%;
+        }
+
+        /* ✅ Added for responsiveness */
+        nav ul {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        nav ul li {
+            margin: 10px 0;
+        }
 }
     </style>
