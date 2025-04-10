@@ -52,11 +52,14 @@
             align-content: center;
             justify-content: space-between
         }
+        
 
         @media (max-width: 768px) {
     .team-gallery {
-      gap: 15px;
+      gap: 25px;
       padding: 10px;
+      align-items: center;
+      display: flex;
     }
 
     h1 {

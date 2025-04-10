@@ -19,12 +19,11 @@ import {Footer} from '$lib';
 
 
 <h2> Herman Melville</h2>
-<img id = "HERMAN" src = "/H_Mel.jpg" alt="Painting of Author Herman Melville">
 <p>Born on August 1st 1819, Herman Melville was raised in New York, one of 7 siblings, his father supported the family by importing French Dry Goods,
     however later he attempted to chance his hand in the Fur business in Alabama, this did not work, he later died two years later, leaving a bankrupt family.
     Melville, along with all his siblings, left school to work odd jobs, in Melville's case, he worked on his uncle's farm, helping in teaching positinos, and working in a bank. <br>
 </p>
-
+<img id = "HERMAN" src = "/H_Mel.jpg" alt="Painting of Author Herman Melville">
 <p> 
     Melville always loved reading, once he left school, he read much more, falling in love with Shakespeare and Mythology, another story that stuck with him was the story of whaleship Essex, the story of a ship that was attacked by a whale and sunk.
     In 1839, at the age of 20, Melville took his first voyage across the Atlantic sea as a cabin boy on the merchant ship the St. Lawrence. After this expedition and a year exploring the West, Melville joined the crew of the whaling ship Acushnet in January of 1841. 
@@ -99,7 +98,7 @@ import {Footer} from '$lib';
         border: 1px solid black;
         width: auto;
         height: auto;
-        margin-left: -1250px;
+        margin-left: auto;
     }
 
     #simpsons {

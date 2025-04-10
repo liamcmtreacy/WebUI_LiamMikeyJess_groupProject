@@ -1,5 +1,5 @@
 <h1> The Chunky Whale!</h1>
-<h2> Who was allegdly a whopping 750,000 pounds!</h2>
+<h2> Who was allegdly a whopping 750,000 pounds, that calculates to 340194.278 KG</h2>
 
 <p>The whale's name was Peructus Colossus, and they lived in the shallow parts of the Ocean Depths. <br>
     The artist's depiction is not 100% accurate, as the Paleontologists from Peru have not yet found a skull. <br>
@@ -10,9 +10,7 @@
     Each Field campaign could only transport two of the huge vertebrae at a time, after 13 years, 13 vertebrae has been discovered, each weighing 220 pounds, with 4 Ribs each over four feet long and a hip bone has also been found.
 </p>
 
-<h1> Peructus Collosus had a skeleton which was 65 Foot Long and weighed anywhere from 90 - 370 Tons!!! </h1>
-
-<p> Eli Amson commented <br> "Besides the Guinness Book aspect of it, from a scientific perspective, the most important part is the understanding of what conditions can yield extreme gigantism"
+<p> Eli Amson commented "Besides the Guinness Book aspect of it, from a scientific perspective, the most important part is the understanding of what conditions can yield extreme gigantism"
 “This changes a lot of our understanding of gigantism and basically provides another evolutionary path to it.” 
 Eli Amson is a staff member of the State Museum of Natural History in Stuttgart, Germany
 </p>
@@ -26,15 +24,15 @@ Eli Amson is a staff member of the State Museum of Natural History in Stuttgart,
 <style>
     h1 {
         font-family: 'Courier New', Courier, monospace;
-        font-weight: bold;
         text-align: left;
+        font-weight: bold;
         color: rgb(0, 0, 0);
     }
 
     h2 {
         font-family: 'Courier New', Courier, monospace;
-        font-weight: bold;
         text-align: left;
+        font-weight: bold;
         color: rgb(0, 0, 0);
     }
 
@@ -42,6 +40,7 @@ Eli Amson is a staff member of the State Museum of Natural History in Stuttgart,
         font-family: 'Courier New', Courier, monospace;
         text-align: left;
         color: rgb(0, 0, 0);
+        padding-bottom: 10px;
     }
 
     #WhalePainting {
