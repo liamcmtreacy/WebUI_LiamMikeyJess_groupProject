@@ -44,5 +44,42 @@ import {Footer} from '$lib';
 
     #boyorca {
     transform: scale(0.8);
+    border: 1px solid black;
     }
+
+    #bigorca {
+        border: 1px solid black;
+        width: auto;
+        height: auto;
+    }
+
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 36px;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+
+        p {
+            font-size: 20px;
+            padding: 10px;
+        }
+
+        #boyorca {
+            width: 400px; /*played around with sizes, I think these look good */
+            height: 400px;
+            flex-direction: column;
+            border: 1px solid black;
+        }
+
+        #bigorca {
+            width: 400px; /*played around with sizes, I think these look good */
+            height: 400px;
+            flex-direction: column;
+            border: 1px solid black;
+        }
+    }
+
 </style>

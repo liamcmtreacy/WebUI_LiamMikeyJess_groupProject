@@ -119,5 +119,59 @@ import {Footer} from '$lib';
         height: 250px;
     }
 
-    /*MOBILE RESPOVINESS */
+    /*MOBILE RESPOVINESS TESTED BASICALLY ALL WITH TRIAL AND ERROR */
+    @media (max-width: 768px) {
+
+        h1 {
+            font-size: 36px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+
+        p {
+            font-size: 20px;
+            padding: 10px;
+        }
+/*IMAGES ARE MADE WIDER AND taller */
+        #starbucks {
+    width: 350px;
+    height: 350px;
+    flex-direction: column;
+    }
+
+    #bookCover {
+        width: 350px;
+        height: 350px;
+        flex-direction: column;
+    }
+
+    #HERMAN {
+        border: 2.5px solid black;
+        width: auto; /*height stays auto for Herman Melville as the image looks bad with the wider stretched looks*/
+        height: auto;
+    }
+
+    #simpsons {
+        width: 350px;
+        height: 350px;
+        flex-direction: column;
+    }
+
+    #family_guy {
+        width: 350px;
+        height: 350px;
+        flex-direction: column;
+    }
+
+    #tom_and_jerry {
+        width: 350px;
+        height: 350px;
+        flex-direction: column;
+    }
+    }
+
+
 </style>

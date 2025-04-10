@@ -60,18 +60,18 @@ console.log("testing Email Address input by user");
 </button>
 
 {:else}
-<p style="color: red;">❌ Sorry, your Email Address doesn't seem to be recognized</p>
+<p style="color: red;">❌ Sorry, your Email Address doesn't seem to be recognized</p> <!---EMAIL IS NOT VALID-->
 {/if}
 {/if}
 
 {#if subscribed}
-<p style ="color: blue;">YOU ARE NOW SUBSCRIBED TO OURS NEWLETTER</p>
+<p style ="color: blue;">YOU ARE NOW SUBSCRIBED TO OUR NEWLETTER</p> 
 {:else} <!----IF YOU ARE NOT SUBSCRIBED YOU DON'T SEE THE BLUE MESSAGE-->
 {/if}
 
 <div class = "buttons">
 <!---BUTTONS TO PLAY AND NOT PLAY THE AUDIO-->
-<button on:click={loadSong}>Play Song</button>
+<button on:click={loadSong}>Play Song</button> <!---simple buttons-->
 <button on:click={stopPlayingtheSong}>Stop playing the Song</button>
 </div>
 
@@ -185,5 +185,21 @@ console.log("testing Email Address input by user");
         }
     }
 
+    @media (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 16px;
+        text-align: center;
+    }
+    }
 </style>
 

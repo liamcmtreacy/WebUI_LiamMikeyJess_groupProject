@@ -2,22 +2,24 @@
 
 <div class = "grid">
 
-<a href="/MobyDick" class="card"> 
+<a href = "/MobyDick"> 
     <p> Learn all about Herman Melville's character "Moby Dick"</p>
-    <img src="/mobyDickWHALE.jpg" alt="Moby Dick book">
+    <img id = "MobyDick" src = "/mobyDickWHALE.jpg" alt = "Moby Dick book">
 </a>
 
-<a href="340_Ton_Whale" class="card">
+<a href = "340_Ton_Whale">
     <p> Learn all about Peructus Collosus</p>
-    <img src="/skyNewsWhale.jpg" alt="An ancient depiction of what is believed to be the largest whale of all time, who is grey in color">
+    <img id = "collosus" src = "/skyNewsWhale.jpg" alt = "An ancient depiction of what is believed to be the largest whale of all time, who is grey in color">
 </a>
 
-<a href="freewilly" class="card">
+<a href = "freewilly">
     <p> Learn all about FreeWilly</p>
-    <img src="/freewilly.jpg" alt="Orca whale from FreeWilly movie">
+    <img id = "freewilly" src = "/freewilly.jpg" alt = "Orca whale from FreeWilly movie">
 </a>
 
 </div>
+
+
 
 <style>
 
@@ -73,35 +75,6 @@
     p {
         color: white;
     }
-
-    .card {
-    background: rgba(255, 255, 255, 0.2);
-    border: 2px solid white;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    text-decoration: none;
-}
-
-@media (max-width: 500px) {
-    h1 {
-        font-size: 32px;
-    }
-
-    .grid {
-        padding: 15px;
-        gap: 15px;
-    }
-
-    .card {
-        padding: 15px;
-    }
-}
-
 </style>
 
 

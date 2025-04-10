@@ -47,8 +47,8 @@
         p { font-size: 18px;
             font-family: 'Courier New', Courier, monospace; }
 
-        .team-gallery {
-            display: flex;
+        .team-gallery { /*PUT THEM ALL IN ONE DIV CLASS */
+            display: flex; 
             align-content: center;
             justify-content: space-between
         }
@@ -56,6 +56,7 @@
 
         @media (max-width: 768px) {
     .team-gallery {
+      flex-direction: column; /* TO HAVE THEM APPEAR ONE ON TOP OF ANOTHER */
       gap: 25px;
       padding: 10px;
       align-items: center;

@@ -59,4 +59,35 @@ Eli Amson is a staff member of the State Museum of Natural History in Stuttgart,
     border: 1px solid black;
 }
 
+@media (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 24px;
+        padding: 5px; /*ADDED FOR easy reading, THE H2 Looks a bit too long without it.*/
+    }
+
+    p {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    /*most appropriate size seems to be 400 400 */
+    #WhalePainting {
+flex-direction: column;
+width: 400px;
+height: 400px;
+}
+
+#model3D {
+flex-direction: column;
+width: 400px;
+height: 400px;
+}
+
+
+}
+
 </style>
