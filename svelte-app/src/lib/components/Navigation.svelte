@@ -43,8 +43,7 @@
         nav {
             width: 100%;
         }
-
-        /* ✅ Added for responsiveness */
+        
         nav ul {
             flex-direction: column;
             align-items: center;
