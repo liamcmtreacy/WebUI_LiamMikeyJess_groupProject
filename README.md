@@ -21,8 +21,8 @@ Adobe Photoshop (Used to test different colors next to each other, to see what l
 
 Team Contributions
 
-Jessica Curran (JessicaCurran):
-Mikey Holmes (Mikey-Holmes):
+Jessica Curran (JessicaCurran): Style changes edits on pages, created freewilly article and completed it, edited information on other pages.
+Mikey Holmes (Mikey-Holmes): Responsiveness on trending whales, whales in history, headers and fun facts page, general style edits throughout, added information on trending news page, edited style of fun facts page.
 Liam Treacy (liamcmtreacy):
 
 Deployment Section
