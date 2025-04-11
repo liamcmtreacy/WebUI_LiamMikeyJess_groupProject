@@ -1,11 +1,13 @@
 <script>
  import {Navigation} from "$lib";
+ import {base} from '$app/paths';
 </script>
 
+<!--images-->
 
 <header>
     <div class = "logo">
-        <img src = "/whaleLogo.png" alt = "Website Logo">
+        <img src = "{base}/whaleLogo.png" alt = "logo with a small grey whale " />
     </div>
     <Navigation/>
 </header>

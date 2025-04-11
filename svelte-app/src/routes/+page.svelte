@@ -1,4 +1,6 @@
 <script>
+    import {base} from '$app/paths';
+    
 let emailAddress = "";
 let isValid = false;
 let song = null;
@@ -7,7 +9,7 @@ let subscribed = false;
 // ADDING AUDIO WITH THE HELP FROM THE SVELTE SITE THIS IS THE SONG'S PROPERTIES
 const audio = {
     name: 'Wave_ocean',
-    audio: "/waveOcean.mp3"
+    audio: `${base}/waveOcean.mp3`
 };
 
 //PLAY SONG
@@ -32,6 +34,8 @@ console.log("testing Email Address input by user");
 }
 
 </script>
+
+
 
 <h1>Welcome to our Whales News Site</h1>
 <p>Learn all about these wonderful Aquatic Mammals</p>

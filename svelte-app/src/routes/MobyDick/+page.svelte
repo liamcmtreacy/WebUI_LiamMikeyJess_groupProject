@@ -1,5 +1,6 @@
 <script>
 import {Modal} from '$lib';
+import {base} from '$app/paths';
 import {Footer} from '$lib';
 </script>
 
@@ -12,7 +13,7 @@ import {Footer} from '$lib';
     and then the following month on November 14th, 1851 in the US, with a 210,000 word count. 
     Moby Dick himself is probably the most iconic aspect of the book, and interpretations of its meaning range from the Judeo-Christian God to atheism and anything you can think off in between. 
 </p>
-<img id = "bookCover" src = "/mobyDickShip.jpg" alt = "Moby Dick eating part of a ship">
+<img id = "bookCover" src = "/{base}mobyDickShip.jpg" alt = "Moby Dick eating part of a ship">
 
 <h2> How popular was Moby Dick at the time?</h2>
 <p> During Herman Melville's life, only 3715 copies of Moby Dick were sold, the book was a flop! Earning only $1259 for Melville</p>
@@ -23,7 +24,7 @@ import {Footer} from '$lib';
     however later he attempted to chance his hand in the Fur business in Alabama, this did not work, he later died two years later, leaving a bankrupt family.
     Melville, along with all his siblings, left school to work odd jobs, in Melville's case, he worked on his uncle's farm, helping in teaching positinos, and working in a bank. <br>
 </p>
-<img id = "HERMAN" src = "/H_Mel.jpg" alt="Painting of Author Herman Melville">
+<img id = "HERMAN" src = "/{base}H_Mel.jpg" alt="Painting of Author Herman Melville">
 <p> 
     Melville always loved reading, once he left school, he read much more, falling in love with Shakespeare and Mythology, another story that stuck with him was the story of whaleship Essex, the story of a ship that was attacked by a whale and sunk.
     In 1839, at the age of 20, Melville took his first voyage across the Atlantic sea as a cabin boy on the merchant ship the St. Lawrence. After this expedition and a year exploring the West, Melville joined the crew of the whaling ship Acushnet in January of 1841. 
@@ -45,16 +46,16 @@ import {Footer} from '$lib';
 <p> In 1956, Moby Dick was adapted for a feature length film by Warner Bros, starring Hollywood Superstar Gregory Peck
 </p>
 
-<img id = "starbucks" src = "/starbucks.png" alt = "Starbucks Logo of a green lady, on a white background">
+<img id = "starbucks" src = "/{base}starbucks.png" alt = "Starbucks Logo of a green lady, on a white background">
 <p>The famous coffee chain Starbucks was actually named after a character in Moby Dick, a character in the novel named Starbuck who 
     was the first mate of the pequod.
 </p>
 
 <p>Moby Dick has also made several appearences in animated series, including Family Guy, Futurama, Tom and Jerry and The Simpsons.</p>
 
-<img id = "simpsons" src = "/simpsonsMDbook.png" alt = "Martin Prince, from the simpsons reading Moby Dick">
-<img id = "family_guy" src = "/FGMD.png" alt = "Peter Griffin sitting at the dinner table with Moby Dick">
-<img id = "tom_and_jerry" src = "/DickyMoe.jpg" alt = "a pirate captain obsessed with catching Dicky Moe, a parody of Moby Dick">
+<img id = "simpsons" src = "/{base}simpsonsMDbook.png" alt = "Martin Prince, from the simpsons reading Moby Dick">
+<img id = "family_guy" src = "/{base}FGMD.png" alt = "Peter Griffin sitting at the dinner table with Moby Dick">
+<img id = "tom_and_jerry" src = "/{base}DickyMoe.jpg" alt = "a pirate captain obsessed with catching Dicky Moe, a parody of Moby Dick">
 
 <style>
     h1 {

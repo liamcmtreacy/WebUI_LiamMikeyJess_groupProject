@@ -1,4 +1,3 @@
- 
 <footer>
     <h4>&copy; 2025, The World of Whales. All Rights Reserved</h4>
 </footer>

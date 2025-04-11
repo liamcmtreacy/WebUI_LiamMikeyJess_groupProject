@@ -2,6 +2,7 @@
     import {onMount} from 'svelte';
     import {Card} from '$lib';
     import {Modal} from '$lib';
+    import {base} from '$app/paths';
 
     let showModal = false;
 
@@ -18,19 +19,19 @@
     <div class = "team-gallery">
         <Card 
             title = "I am one of the masterminds, behind this lovely website" 
-            src="/teamMemberMikey.jpg" 
+            src="/{base}teamMemberMikey.jpg" 
             alt="Hello, I'm Mikey Holmes, this is my portrait" 
             description="Hi, welcome to our Whale Website. My name is Mikey Holmes, I am 21 years old, and I am a student of SETU Carlow, you can contact me at C00300796@setu.ie, I chose this course because I have a good understanding of computing. I’m especially interested in digital art and design, and I hope it will help me develop my skills in different computing areas and build a great career."
         /> 
         <Card 
             title = "I am one of the masterminds, behind this lovely website" 
-            src="/teamMemberJessica.jpg" 
+            src="/{base}teamMemberJessica.jpg" 
             alt="Hello, I'm Jessica Curran, this is my portrait" 
             description="Hi, welcome to our Whale Website. My name is Jessica Curran, I am 21 years old, and I am a student of SETU Carlow, you can contact me at C00300855@setu.ie, I chose this course as I have always had an interest in art and all things creative and thought this course might help develop my skills further."
         />
         <Card 
             title = "I am one of the masterminds, behind this lovely website" 
-            src="/teamMemberLiam.jpg" 
+            src="/{base}teamMemberLiam.jpg" 
             alt="Hello, I'm Liam Treacy, this is my portrait" 
             description="Hi, welcome to our Whale Website. My name is Liam Treacy I am 21 years old, and I am a student of SETU Carlow, you can contact me at C00298242@setu.ie. The reason I chose to study IDAD in carlow, was because I wanted to have a course where I did not just specialise in one topic, but rather learn many topics, providing a hopefully promising career to come."
         />
@@ -50,7 +51,7 @@
         .team-gallery { /*PUT THEM ALL IN ONE DIV CLASS */
             display: flex; 
             align-content: center;
-            justify-content: space-between
+            justify-content: space-between; /*allows white space */
         }
         
 

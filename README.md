@@ -9,7 +9,7 @@ Live Link:
 # Design Rationale
 We chose this theme and topic because we thought it would be interesting to talk about, the fact that it hasn't been done by other classmates, and also an element of challenge, as a Whales News site would cause us to search deep to find good information
 
-#Key Features
+# Key Features
 
 Our site contains a Homepage, About Us Page, Whales in History page, Trending Whale News and Fun Facts page.
 
@@ -19,7 +19,7 @@ The Fun Fact page has the option to submit your own fun facts
 
 We also used a lot of Div classes to help make the coding process easier
 
-#Responsiveness 
+# Responsiveness 
 
 Responsiveness was one of the final things we worked on, we used different sized computer screens and tested it by shrhinking the screen size, we made text larger, sometimes when relevant we added more prominent borders and had the images be in a column format to be easier on the eyes
 
@@ -39,9 +39,9 @@ Mikey Holmes (Mikey-Holmes): Responsiveness on trending whales, whales in histor
 
 Liam Treacy (liamcmtreacy): Project Leader, designed the Home Page, About Us Page, wrote articles for Whales in History, helped with responsiveness, general code work and helping my team, added the ability to play audio and your own fun facts, added the ability to subscribe
 
-Deployment Section
+# Deployment Section
 
-Reflections and What's Next
+# Reflections and What's Next
 
 
 Reference Material for our websites
