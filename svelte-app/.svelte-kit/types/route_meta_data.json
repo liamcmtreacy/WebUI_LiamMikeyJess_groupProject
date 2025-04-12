@@ -1,0 +1,27 @@
+{
+	"/": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
+	"/340_Ton_Whale": [
+		"src/routes/+layout.js"
+	],
+	"/About": [
+		"src/routes/+layout.js"
+	],
+	"/Fast Facts about Whales": [
+		"src/routes/+layout.js"
+	],
+	"/MobyDick": [
+		"src/routes/+layout.js"
+	],
+	"/Trending Whale News": [
+		"src/routes/+layout.js"
+	],
+	"/Whales in History": [
+		"src/routes/+layout.js"
+	],
+	"/freewilly": [
+		"src/routes/+layout.js"
+	]
+}

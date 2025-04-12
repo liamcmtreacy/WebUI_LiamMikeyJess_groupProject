@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/340_Ton_Whale/+page.svelte";
