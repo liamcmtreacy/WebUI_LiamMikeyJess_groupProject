@@ -37,14 +37,23 @@ Jessica Curran (JessicaCurran): Style changes edits on pages, created freewilly 
 
 Mikey Holmes (Mikey-Holmes): Responsiveness on trending whales, whales in history, headers and fun facts page, general style edits throughout, added information on trending news page, edited style of fun facts page.
 
-Liam Treacy (liamcmtreacy): Project Leader, designed the Home Page, About Us Page, wrote articles for Whales in History, helped with responsiveness, general code work and helping my team, added the ability to play audio and your own fun facts, added the ability to subscribe
+Liam Treacy (liamcmtreacy): Project Leader, designed the Home Page, About Us Page, wrote articles for Whales in History, helped with responsiveness, general code work and helping my team, added the ability to play audio and your own fun facts, added the ability to subscribe, pushed the website live.
 
 # Deployment Section
 
+Deploying the site proved to be quite a bit of trouble, we needed to have Libor research a method to export Gifs for us, which thankfully he was able too. The {base} was tough to first figure out but we got there in the end, pushing it live took a couple of tries, it turns out it would go live, but I forgot to add the .noJekyll file
+
+# Errors
+
+While the site runs fine, there is a few erros which I cannot figure out, the first is that not all nav links work on each page, I'm unsure why this is the case so sometimes you have to click onto a certain page to get back to another page. Also you need to click around a page or two before the buttons work, I feel this is something to do with the site not fully rendering but I am unsure.
+
 # Reflections and What's Next
 
+We all want to put this site out there and have our friends and family read it, we would like to attach this site to our CVs and show them around to potential employers in the future, overall we are proud of the site and hope to potentially improve it in 3rd year.
 
-Reference Material for our websites
+Right now we decided to take a short break and swiftly move onto our portfolio project which is next.
+
+# Reference Material for our websites
 
 News Articles which helped us make our own articles 
 https://www.britannica.com/biography/Herman-Melville
@@ -55,9 +64,10 @@ https://bookriot.com/a-simple-tale-about-man-who-hates-an-animal-moby-dick-in-po
 https://www.w3schools.com/cssref/css_colors.php
 USED FOR COLOR CODES
 
-Code Credits
+# Code Credits
 Error Page code provided by Libor
 GIF help from Libor, Pavel, Jake and Eliska
+Deployment help from Caoimhe
 
 W3schools for help with the background image on Whales In Histroy Page
 https://www.w3schools.com/html/html_images_background.asp
@@ -74,4 +84,4 @@ https://www.mailcoach.app/resources/blog/building-a-newsletter-subscription-form
 
 General Classrom help from Libor Zachoval and Milu Phillip
 Blackboard Lecture Nots Weeks 6-11 from Libor Zachoval
-Special Thanks to Libor and Milu
+Big Thanks to Libor and Milu, for their hard work and help for us.
