@@ -4,7 +4,7 @@ Our project is called "The World of Whales"
 Our goal is produce an educational News Website about Whales, the site has an easy on the eyes color pallette
 
 It is designed for people who enjoy these Aquatic creatures, and also people who want to learn about them.
-Live Link: 
+Live Link: https://liamcmtreacy.github.io/WebUI_LiamMikeyJess_groupProject/ 
 
 # Design Rationale
 We chose this theme and topic because we thought it would be interesting to talk about, the fact that it hasn't been done by other classmates, and also an element of challenge, as a Whales News site would cause us to search deep to find good information
@@ -54,6 +54,8 @@ We all want to put this site out there and have our friends and family read it, 
 Right now we decided to take a short break and swiftly move onto our portfolio project which is next.
 
 # Reference Material for our websites
+
+The audio used is the song "Wave Ocean: The Water's Edge" from the 2006 Video Game Sonic The Hedgehog, composed by Mariko Nanba and Tomoya Ohtani.
 
 News Articles which helped us make our own articles 
 https://www.britannica.com/biography/Herman-Melville
