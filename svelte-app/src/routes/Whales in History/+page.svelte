@@ -7,17 +7,17 @@ import {base} from '$app/paths';
 
 <div class = "grid">
 
-<a href = "/{base}MobyDick"> 
+<a href = {`${base}/MobyDick`}> 
     <p> Learn all about Herman Melville's character "Moby Dick"</p>
     <img id = "MobyDick" src = "{base}/mobyDickWHALE.jpg" alt = "Moby Dick book">
 </a>
 
-<a href = "/{base}340_Ton_Whale">
+<a href = {`${base}/340_Ton_Whale`}>
     <p> Learn all about Peructus Collosus</p>
     <img id = "collosus" src = "{base}/skyNewsWhale.jpg" alt = "An ancient depiction of what is believed to be the largest whale of all time, who is grey in color"/>
 </a>
 
-<a href = "/{base}freewilly">
+<a href = {`${base}/freewilly`}>
     <p> Learn all about FreeWilly</p>
 <img id ="freewilly" src = "{base}/freewilly.jpg" alt = "Orca whale from FreeWilly movie"/>
 </a>

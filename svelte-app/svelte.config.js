@@ -12,7 +12,7 @@ const config = {
 		paths: {
 			base: dev ? '' : `/${repoName}`
 		},
-	},
+	}
 };
 
 export default config;

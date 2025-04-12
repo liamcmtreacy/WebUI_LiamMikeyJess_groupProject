@@ -3,7 +3,7 @@
     
 let emailAddress = "";
 let isValid = false;
-let song = null;
+let song = null; // audio song, always appears red but works fine, unsure of meaning behind
 let subscribed = false;
 
 // ADDING AUDIO WITH THE HELP FROM THE SVELTE SITE THIS IS THE SONG'S PROPERTIES
@@ -134,61 +134,6 @@ console.log("testing Email Address input by user");
         z-index: -10000;
     }
 
-    @keyframes gifs {
-        0%, 10% { 
-            background-image: url('/whaleJump.gif');
-            opacity: 0.5;
-            
-        }
-
-        10%, 20% { 
-            background-image: url('/orca.gif');
-            opacity: 0.5;
-            
-        }
-
-        20%, 40% { 
-            background-image: url('/whaleCrash.gif');
-            opacity: 0.5;
-        }
-
-        40%, 50% { 
-            background-image: url('/whaleAppears.gif');
-            opacity: 0.5;
-        }
-
-        50%, 60% { 
-            background-image: url('/whaleOutlineSwim.gif');
-            opacity: 0.5;
-        }
-
-        60%, 70% { 
-            background-image: url('/dolphin.gif');
-            opacity: 0.5;
-        }
-
-        70%, 80% { 
-            background-image: url('/whaleCrash.gif');
-            opacity: 0.5;
-        }
-
-        70%, 80% { 
-            background-image: url('/waterOrca.gif');
-            opacity: 0.5;
-        }
-
-        80%, 90% { 
-            background-image: url('/whaleSave.gif');
-            opacity: 0.5;
-        }
-
-        90%, 100% { 
-            background-image: url('/whaleUnderwater.gif');
-            opacity: 0.5;
-            
-        }
-    }
-
     @media (max-width: 768px) {
     h1 {
         font-size: 36px;
@@ -206,4 +151,63 @@ console.log("testing Email Address input by user");
     }
     }
 </style>
+
+
+<!----GIF BACKGROUND STLYE, NOT TO SELF, NEVER DO THIS AGAIN-->
+{@html `<style>
+    @keyframes gifs { 
+        0%, 10% { 
+            background-image: url('${base}/whaleJump.gif');
+            opacity: 0.5;
+            
+        }
+
+        10%, 20% { 
+            background-image: url('${base}/orca.gif');
+            opacity: 0.5;
+            
+        }
+
+        20%, 40% { 
+            background-image: url('${base}/whaleCrash.gif');
+            opacity: 0.5;
+        }
+
+        40%, 50% { 
+            background-image: url('${base}/whaleAppears.gif');
+            opacity: 0.5;
+        }
+
+        50%, 60% { 
+            background-image: url('${base}/whaleOutlineSwim.gif');
+            opacity: 0.5;
+        }
+
+        60%, 70% { 
+            background-image: url('${base}/dolphin.gif');
+            opacity: 0.5;
+        }
+
+        70%, 80% { 
+            background-image: url('${base}/whaleCrash.gif');
+            opacity: 0.5;
+        }
+
+        70%, 80% { 
+            background-image: url('${base}/waterOrca.gif');
+            opacity: 0.5;
+        }
+
+        80%, 90% { 
+            background-image: url('${base}/whaleSave.gif');
+            opacity: 0.5;
+        }
+
+        90%, 100% { 
+            background-image: url('${base}/whaleUnderwater.gif');
+            opacity: 0.5;
+            
+        }
+    }
+</style`}
 
